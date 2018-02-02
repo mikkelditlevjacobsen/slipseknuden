@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ../partials/head_partials %>
+</head>
+
+<body>
+    <div id="wrapper">
+    <header>
+        <% include ../partials/header_partials %>
+    </header>
+
+    <div id="content">
+
+        <%if(side == "index"){%>
+            <% include ../partials/index_partials %>
+                <%}%>
+
+                    <%if(side == "omslipseknuden"){%>
+                        <% include ../partials/om_slipseknuden_partials %>
+                            <%}%>
+
+                                <%if(side == "garanti"){%>
+                                    <% include ../partials/garanti_partials %>
+                                        <%}%>
+
+                                            <%if(side == "kontakt"){%>
+                                                <% include ../partials/kontakt_partials %>
+                                                    <%}%>
+
+
+                                                        <%if(side == "nyheder"){%>
+                                                            <% include ../partials/nyheder_partials %>
+                                                                <%}%>
+
+                                                                    <%if(side == "produkter"){%>
+                                                                        <% include ../partials/produkter_partials %>
+                                                                            <%}%>
+
+    </div>
+
+    <footer>
+        <% include ../partials/footer_partials %>
+    </footer>
+</div>
+</body>
+
+</html>

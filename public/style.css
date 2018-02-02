@@ -1,0 +1,162 @@
+
+#wrapper{
+	max-width:960px;
+	margin:0 auto;
+	background-color:#FFF;
+}
+
+.container-fluid{
+    background-color: black;
+}
+
+#atag a{
+    color: white;
+    font-size: 1.3em;
+}
+
+#ul_style{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #000;
+    border: 1px solid #fff;
+
+}
+
+
+#ul_style  li a {
+    display: block;
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+
+#ul_style  li {
+    text-align: left;
+    border-bottom: 1px solid #fff;
+}
+
+#ul_style  li:last-child {
+    border-bottom: none;
+}
+
+
+.center{
+    text-align: center;
+}
+
+.content{
+    background-color: white;
+    height: auto;
+}
+
+main{
+    background-color: white;
+    height: 100%;
+}
+
+.col{
+    background-color: white;
+    height: 100%;
+}
+
+.lige_kolonner img {
+    border: 1px solid black;
+    transition: opacity 0.5s;
+}
+
+.lige_kolonner img:hover {
+    opacity: .5;
+}
+
+.rykop{
+    padding-top: 90px;
+}
+
+.rykned{
+    padding-bottom: 36px;
+}
+
+.ryknedd{
+    padding-bottom: 80px;
+}
+
+.rykned2{
+    padding-top: 20px;
+}
+
+.rykned3{
+    padding-top: 70px;
+}
+
+
+#footerstyle{
+    padding: 20px;
+}
+
+#ingenfarve{
+    background-color: white;
+    border: none;
+}
+
+.info{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+    border-color: black;
+    width: 150px;
+}
+
+
+.nav-h4{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.capslock{
+    text-transform: uppercase;
+}
+
+.footer-falke-section{
+    width: 100%;
+    clear: both;
+}
+
+.fuck-caps{
+    text-transform: lowercase!important;
+}
+
+.t-a-l{
+    text-align: left;
+}
+
+.shieeeet{
+    margin-top: 30px;
+    margin-bottom: 10px;    
+}
+
+span{
+color: orangered;
+}
+
+.no-pad{
+    padding: 0!important;
+    margin-top:40px;
+}
+
+#abcdefg{
+    width: 100%; 
+    height: auto;
+}
+
+.tilbud{
+    color: #ff1a75;
+    font-weight:  bold;
+}
+

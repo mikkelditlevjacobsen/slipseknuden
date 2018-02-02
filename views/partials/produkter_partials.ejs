@@ -1,0 +1,92 @@
+<main>
+    <div class="col-md-3">
+        <h4 class="nav-h4">PRODUKTER</h4>
+        <ul id="ul_style">
+            <li>
+                <a href="#">Alle</a>
+            </li>
+            <li>
+                <a href="#">Shoon</a>
+            </li>
+            <li>
+                <a href="#">Korea Special</a>
+            </li>
+            <li>
+                <a href="#">US, Imports</a>
+            </li>
+            <li>
+                <a href="#">Sleek Fabrics UK</a>
+            </li>
+        </ul>
+
+        <div class="col-md-12 no-pad">
+
+            <img width="120px" style="float: left" src="images/1_klassisk_brun.jpg">
+            <div style="font-size: 12px">
+                <p>
+                    <b>Shoon Slips</b>
+                </p>
+
+                <p>Klassisk brun</p>
+                <p>
+                    <span class="tilbud">TILBUD</span>
+                </p>
+                <p>
+                    <b>DKK<span class="tilbud"> 450 kr</span></b>
+                </p>
+            </div>
+            <button class="info ryknedd">INFO</button>
+
+
+
+            <img width="120px" style="float: left" src="images/2_stribet_stil.jpg">
+            <div style="font-size: 12px">
+                <p>
+                    <b>Shoon Slips</b>
+                </p>
+                <p>Klassisk brun</p>
+                <p>
+                    <span class="tilbud">TILBUD</span>
+                </p>
+                <p>
+                    <b>DKK<span class="tilbud"> 300 kr</span></b>
+                </p>
+            </div>
+            <button class="info">INFO</button>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="col-md-9 rykned">
+
+
+        <% produkter.forEach(function(produkt){ %>
+            <div style="float: left" class="col-md-4">
+                <img id="abcdefg" src="/images/<%= produkt.beskrivelse.billede %>">
+                <p>
+                    <b>
+                        <%= produkt.producent %>
+                    </b>
+                </p>
+                <p>
+                    <%= produkt.navn %>
+                </p>
+                <p>
+                    <b>
+                        <%= produkt.pris %> kr.</b>
+                </p>
+                <button class="info">INFO</button>
+            </div>
+            <% }); %>
+
+
+
+
+
+
+
+    </div>
+</main>
